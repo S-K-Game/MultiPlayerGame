@@ -14,25 +14,20 @@
 
 ![אנימציית יריה ](https://github.com/S-K-Game/MultiPlayerGame/blob/master/Assets/%D7%90%D7%A0%D7%99%D7%9E%D7%A6%D7%99%D7%99%D7%AA%20%D7%99%D7%A8%D7%99%D7%94%20.png)
 
- **השינויים שביצענו בקוד הקיים הם:**
+ השינויים שביצענו בקוד הקיים הם:
  
  
- הוספת רכיב Photon Animatro View -
+ - הוספת רכיב Photon Animatro View
  ובו עדכנו את כל הטריגרים להיות Discrete.
- 
- 
-![](https://github.com/S-K-Game/MultiPlayerGame/blob/master/Assets/%D7%A8%D7%9B%D7%99%D7%91%20%D7%A9%D7%97%D7%A7%D7%9F.png)
+ ![](https://github.com/S-K-Game/MultiPlayerGame/blob/master/Assets/%D7%A8%D7%9B%D7%99%D7%91%20%D7%A9%D7%97%D7%A7%D7%9F.png)
 
 
-  Player Mover הוספת שדה של Animator -
+ -  Player Mover הוספת שדה של Animator
  שינוי בסקריפט עצמו כאשר ישנו זיהוי של תזוזה או חוסר תזוזה לעבור למצב הליכה/ ריצה/עמידה במקום
- 
-
-
-![](https://github.com/S-K-Game/MultiPlayerGame/blob/master/Assets/PlayerMover.png)
+ ![](https://github.com/S-K-Game/MultiPlayerGame/blob/master/Assets/PlayerMover.png)
  
  
-Player Manager הוספת שדה של Animator -
+ - Player Manager הוספת שדה של Animator
   שינוי בסקריפט עצמו כאשר ישנו זיהוי של ירייה לעבור לאנימציית יריה
 ![](https://github.com/S-K-Game/MultiPlayerGame/blob/master/Assets/playerManager.png)
   
