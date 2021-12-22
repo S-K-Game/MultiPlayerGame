@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2557017309936028275
 Transform:
   m_ObjectHideFlags: 0
@@ -236,6 +236,7 @@ MonoBehaviour:
   rotaionSpeed: 2
   sprintSpeed: 8
   PlayerSee: {fileID: 2557017309936028274}
+  animator: {fileID: 0}
   sprint: 304
 --- !u!114 &2557017311148351018
 MonoBehaviour:
@@ -290,9 +291,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 1
+  animator: {fileID: 0}
   playerUiPrefab: {fileID: 1445000400809041852, guid: 29e06fb6c2b82d14098e6629ef1e5cbf, type: 3}
   beams: {fileID: 7439903803677311857}
   triggeringTag: Beam
+  Score: {fileID: 0}
 --- !u!114 &-2254791364717599843
 MonoBehaviour:
   m_ObjectHideFlags: 0

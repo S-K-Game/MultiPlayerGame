@@ -39,13 +39,13 @@ public class PlayerMover : MonoBehaviourPun
             return;
         }
 
-        if (Input.GetKey(sprint))
+        if (/**photonView.IsMine && */Input.GetKey(sprint))
         {
             animator.SetTrigger("run");
             currentSpeed = sprintSpeed;
 
         }
-        else
+        else /**if(photonView.IsMine)*/
         {
             animator.SetTrigger("idle");
             currentSpeed = speed;
@@ -59,7 +59,7 @@ public class PlayerMover : MonoBehaviourPun
         
         float rotX = Input.GetAxis("Mouse X");
         float rotY = Input.GetAxis("Mouse Y");
-        if(vertical != 0 ||  horizontal != 0){
+        if(/**photonView.IsMine &&*/ (vertical != 0 ||  horizontal != 0)){
             animator.SetTrigger("walking");
         }
 
